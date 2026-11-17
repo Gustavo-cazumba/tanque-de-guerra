@@ -15,7 +15,7 @@ public class Jarvis extends TeamRobot {
      */
     public void run() {
         // Define as cores visuais do Jarvis: Corpo Azul, Canhão Amarelo e Radar Branco
-        setColors(Color.BLUE, Color.YELLOW, Color.WHITE);
+        setColors(Color.RED);
 
         // Desacopla o movimento do canhão e do radar em relação ao giro do corpo do robô
         setAdjustGunForRobotTurn(true);

@@ -18,7 +18,7 @@ public class Ultron extends TeamRobot {
      */
     public void run() {
         // Define as cores visuais do Ultron: Corpo Vermelho, Canhão Cinza Escuro e Radar Preto
-        setColors(Color.RED, Color.DARK_GRAY, Color.BLACK);
+        setColors(Color.BLACK);
 
         // Permite girar canhão e radar de forma independente da rotação do chassi
         setAdjustGunForRobotTurn(true);
